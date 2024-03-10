@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #b7b7a4;
+    height: 75px;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 15px 10px;
+    
+
+    
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: "Marcellus", serif;
+
+}
+
+
+
+.logo{
+    font-family: "Marcellus", serif;
+}
+
+.landing{
+    background-image: url(Designer.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.landing h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding-top: 200px;
+}
+.about{
+    text-align: center;
+    height: 900px;
+}
+
+.portfolio{
+    text-align: center;
+    height: 900px;
+}
+
+.footer{
+    height: 300px;
+    background-color: rgb(22, 22, 22);
+}
+
