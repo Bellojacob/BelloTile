@@ -3,13 +3,11 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <h1 className="text-center">Bello Tile</h1>
-    
+    <Navbar />    
 
     <div>
       
-      <Link href="/secondPage">Go to Second Page</Link>
+      <Link href="/secondPage" className='bg-blue-200 p-2 m-2'>Go to Second Page</Link>
     </div>
     </>
   )
