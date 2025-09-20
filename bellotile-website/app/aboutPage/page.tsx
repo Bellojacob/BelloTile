@@ -4,10 +4,7 @@ export default function secondPage(){
     return(
     <>
     <Navbar />
-    <h1 className="text-center">This is the second page</h1>
-    <div>
-      <Link href="/">Go to Home Page</Link>
-    </div>
+    <h1 className="text-center">This is the about page</h1>
     </>
     )
 }

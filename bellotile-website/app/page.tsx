@@ -5,10 +5,7 @@ export default function Home() {
     <>
     <Navbar />    
 
-    <div>
-      
-      <Link href="/secondPage" className='bg-blue-200 p-2 m-2'>Go to Second Page</Link>
-    </div>
+    <h1 className='text-center'>This is the home page</h1>
     </>
   )
 }
